@@ -13,7 +13,7 @@ btnLoad.addEventListener("click", function(event){
         return response.json();
     })
     .then(data => {
-        contProds.innerHTML = '';
+        cajaProds.innerHTML = '';
 
         data.slice(0, 9).forEach(product => {
             cajaProds.insertAdjacentHTML("beforeend", `
@@ -31,6 +31,6 @@ btnLoad.addEventListener("click", function(event){
         });
     })
     .catch(error => {
-        contProds.innerHTML = `<div class="alert alert-danger">Error: ${error.message}</div>`;
+        cajaProds.innerHTML = `<div class="alert alert-danger">Error: ${error.message}</div>`;
     });
 });
