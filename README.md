@@ -1,5 +1,5 @@
-# Ejercicio Evaluado Especial
+# Autoevaluación
 
-Ejercicio Evaluado Especial
-
-Favor de leer los pasos a seguir en el archivo Instrucciones.md
+* COHORTE CH53
+*30/04/25 12:25 p.m.
+* Daniela Pereyra Rodríguez
