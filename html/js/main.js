@@ -19,7 +19,7 @@ btnLoad.addEventListener("click", function(event){
             cajaProds.insertAdjacentHTML("beforeend", `
                 <div class="col-md-4">
                  <div class="card mb-4 shadow-sm">
-                 <img src="${product.images[1] || product.images[0]}" class="card-img-top" alt="${product.title}">
+                 <img src="${product.images[1] || product.images[0]}" class="card-img-top" alt="${product.title}" >
                      <div class="card-body">
                             <h5 class="card-title">${product.title}</h5>
                             <p class="card-text">${product.description}</p>
